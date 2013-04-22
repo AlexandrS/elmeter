@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>187911011</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_cgc.c</file>
+      <file>$PROJ_DIR$\user_src\ADE7878_protocol.c</file>
+      <file>$PROJ_DIR$\applilet3_src\ADE7878_protocol.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_cgc_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_intc.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_intc_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_port.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_port_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_serial.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_serial_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_timer.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_timer_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_wdt.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_wdt_user.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_main.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_systeminit.c</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_serial.h</file>
+      <file>$PROJ_DIR$\user_src\ADE7878_protocol.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_wdt.h</file>
+      <file>$PROJ_DIR$\user_src\main.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc.r87</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_timer.h</file>
+      <file>$PROJ_DIR$\applilet3_src\md_lnkr5f102aa.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_wdt.r87</file>
+      <file>$PROJ_DIR$\Debug\Exe\el_01.a87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_wdt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_timer.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\ADE7878_protocol.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\ADE7878_protocol.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial_user.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_wdt_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_systeminit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LibReplacement.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\LibReplacement.s87</file>
+      <file>$PROJ_DIR$\Debug\List\LibReplacement.lst</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f102aa.h</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f102aa_ext.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_timer_user.r87</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_macrodriver.h</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_userdefine.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\el_01.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\el_01.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_wdt_user.r87</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_intc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_main.r87</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_cgc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_systeminit.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_cgc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_intc_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_port_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_serial_user.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\r_cg_timer_user.pbi</file>
+      <file>$PROJ_DIR$\applilet3_src\r_cg_port.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\el_01.hex</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>INTERNAL_HWSUPPORT</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_cgc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 54 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 54 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\user_src\ADE7878_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\ADE7878_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 17 47 44 45 43 66 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 66 47 44 45 43 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_cgc_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 54 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 54 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_intc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 52 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 52 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_intc_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 52 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 52 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_port.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 66 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 66 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_port_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 66 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 66 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 16 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 16 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_serial_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 16 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 16 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 22 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 22 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_timer_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 22 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 22 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_wdt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 18 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 18 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_cg_wdt_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 18 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 18 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 54 66 52 16 22 18 19 17 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 54 66 52 16 22 18 19 17 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\applilet3_src\r_systeminit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47 44 45 43 54 66 52 16 22 18 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 44 45 43 54 66 52 16 22 18 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\el_01.a87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 33 40 21 28 29 30 34 35 32 36 27 46 24 51 53 55 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\LibReplacement.s87</name>
+      <outputs>
+        <tool>
+          <name>ARL78</name>
+          <file> 40 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ARL78</name>
+          <file> 44 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\el_01.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 33 40 21 28 29 30 34 35 32 36 27 46 24 51 53 55 20</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
