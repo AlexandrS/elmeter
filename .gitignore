@@ -1,0 +1,5 @@
+./Debug/Obj
+./Debug/Exe
+/settings
+./Debug/List
+./*.dep

@@ -95,7 +95,7 @@ void  main(void)
           Read_ADE78xx_I2C(slAddress, registerAdress, registerData, numRegAddress, numRegData);
           break;
          case 3:
- //         Data_read(size_Rx_message);
+          Write_ADE78xx_I2C(slAddress, registerAdress, registerData, numRegAddress, numRegData);
           break;
          default:
           break;

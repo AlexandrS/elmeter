@@ -61,6 +61,38 @@ uint8_t Read_ADE78xx_I2C(uint8_t SL_Addr, uint8_t *pRegAdress, uint8_t *pRegData
   return 0;
 }
 
+uint8_t Write_ADE78xx_I2C(uint8_t SL_Addr, uint8_t *pRegAdress, uint8_t *pRegData, uint8_t nrAdressBytes, uint8_t nrDataBytes) {
+
+  int i=0;
+  
+  uint8_t i2cMessage[LENGHT_MESSAGE];
+  
+  if(STCEN0!=1)					/* Case of bus non-liberating. */
+    {
+      R_IICA0_StopCondition();		        /* Generate stop condition. */
+		
+      /* Detection waiting of stop condition. */
+      while(!SPD0)
+	{
+          NOP();
+	}
+     }
+  
+  for (i=0;i<nrAdressBytes+nrDataBytes;i++) {
+    if (i<nrAdressBytes) {
+      i2cMessage[i] = pRegAdress[i];
+    }
+    else {
+      i2cMessage[i] = pRegData[i-nrAdressBytes];
+    }
+  }
+  
+  /*Send address of read register of ADE7878*/
+  Transmit_Data_I2C(SL_Addr, i2cMessage, nrAdressBytes+nrDataBytes, 1);  
+  
+  return 0;
+}
+
 void Transmit_Data_I2C(uint8_t addressSlave, uint8_t *pData, uint8_t Nr_Bytes, uint8_t direction) {
   
   uint8_t loop_counter;				/* Loop counter */
